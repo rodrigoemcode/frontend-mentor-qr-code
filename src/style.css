@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 body {
     background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.container {
+main {
     background-color: hsl(0, 0%, 100%);
     width: 220px;
     height: 360px;
-    margin: 200px auto;
+    margin: auto;
     border-radius: 18px;
     display: block;
     text-align: center;
@@ -18,7 +24,7 @@ body {
     border-radius: 18px;
 }
 
-h1{
+main h1 {
     color: hsl(218, 44%, 22%);
     font-family: 'Outfit', sans-serif;
     font-size: medium;
@@ -26,16 +32,16 @@ h1{
     margin: 10px;
 }
 
-p{
+main p{
     color: hsl(220, 15%, 55%);
     font-family: 'Outfit', sans-serif;
-    font-size: 12px;
+    font-size: 1em;
     text-align: center;
-    margin: 12px;
-}
+    margin: 12px
+    }
 
 .attribution {
-    font-size: 11px;
+    font-size: 0.8em;
     text-align: center;
 }
 
