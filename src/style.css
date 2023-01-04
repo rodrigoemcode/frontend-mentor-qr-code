@@ -27,7 +27,8 @@ main {
 main h1 {
     color: hsl(218, 44%, 22%);
     font-family: 'Outfit', sans-serif;
-    font-size: medium;
+    font-size: 1em;
+    font: 700 bold;
     text-align: center;
     margin: 10px;
 }
@@ -35,7 +36,7 @@ main h1 {
 main p{
     color: hsl(220, 15%, 55%);
     font-family: 'Outfit', sans-serif;
-    font-size: 1em;
+    font-size: 0.8em;
     text-align: center;
     margin: 12px
     }
