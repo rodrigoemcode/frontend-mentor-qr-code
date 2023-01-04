@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 body {
     background-color: hsl(212, 45%, 89%);
     min-height: 100vh;
@@ -37,6 +37,7 @@ main p{
     color: hsl(220, 15%, 55%);
     font-family: 'Outfit', sans-serif;
     font-size: 0.8em;
+    font: 400 bold;
     text-align: center;
     margin: 12px
     }
